@@ -1,0 +1,222 @@
+@charset "UTF 8";
+@font-face {
+    font-family:'andoid';
+    src: url(desafio/fontes/idroid.otf) format(truetype);
+}
+@font-face {
+    font-family:'principal';
+    src: url(desafio/fontes/Pixel\ Digivolve\ Italic.otf) format(truetype);
+}
+/*
+Ao corrigir o exercicio 10, aprendemos uma variante para usar no nosso css, uma pseudo classe chmada :root.
+*/
+:root{
+    --color0: #33db4c42;
+    --color1: #0b351298;
+    --color2: #091d09d8;
+    --color3: #5dfd5d57;
+    --color4: #a5e67946;
+    --color5: #91f569;
+
+}
+body{
+    background-color: var(--color3);
+    margin: auto;
+    height:auto;
+   
+   
+}
+header{
+   background-image: linear-gradient(to bottom, #4cb442b0, #0d94239c,#297c29ab);
+   height: 220px;
+   box-shadow: 7px 6px 5px 6px #00000077;
+   padding-top:10px;
+}
+header > h1{
+   font-family: 'principal', Helvetica, sans-serif;
+    color:white;
+    margin-top: 20px;
+    text-align: center;
+    border: 7px solid transparent;
+    margin-bottom: 40px;
+    
+    
+}
+header > p {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-style: italic;
+}
+nav{
+    padding-bottom:none;
+    padding-top: 20px;
+    margin-bottom: none;
+}
+nav > a{
+    margin: auto;
+    color: #ffffff;
+    padding: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+   
+
+
+}
+
+nav a:hover{
+   color: rgb(28, 48, 36);
+   background-color: rgba(12, 43, 17, 0.205);
+   text-align: center;
+   padding:6px;
+   text-decoration: underline;
+   width: 1px;
+
+}
+   
+main{
+    background-color: transparent;
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+    line-height: 2em;
+}
+ .imagem{
+ 
+
+}
+article{
+    background-color: hsla(0, 0%, 97%, 0.863);
+  
+}
+
+article > h2 {
+    font-family: 'andoid';
+    background-image: linear-gradient(to right, #27dd364d,transparent);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 27px;
+}
+article > p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 30px;
+    text-align: justify;
+    
+
+    
+
+}
+
+div.video{
+    background-image: linear-gradient( to top, rgb(2, 7, 3) , transparent);
+    margin: 0px -1px 30px -1px;
+    position: relative;
+    padding: 13px;
+    padding-bottom: 50%;
+   
+}
+div.video > iframe {
+ position: absolute;
+ top: 5% ;
+ left: 5%;
+ width: 90% ;
+ height: 90% ;
+}
+section{
+    background-image: linear-gradient(to left,rgba(85, 209, 47, 0.678),rgb(160, 172, 161),rgba(94, 216, 63, 0.678));
+    margin:20px;
+    height:auto;
+    border: 10px solid none;
+    width: auto;
+}
+
+
+
+article > aside{
+    background-color:transparent;
+    border-radius: 20px;
+    font-size: 23px;
+    text-justify: auto;
+}
+aside > p{
+    background-image: linear-gradient( to left, rgba(14, 49, 14, 0.315), rgba(255, 255, 255, 0.329), rgba(13, 59, 13, 0.281));
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        margin:40px;
+        height: auto;
+        border-width: 20px;
+        font-size: 27px;
+        
+}
+
+aside{
+    background-image: linear-gradient( to bottom, rgba(58, 92, 44, 0.767),transparent);
+    box-shadow: 3px 2px 8px 1px;
+  
+}
+aside h3{
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(to  right, rgb(24, 46, 24), transparent);
+    border-radius: 10px 10px 0px 0px;
+}
+aside > ul {
+    list-style-type:' \00a0\02714';
+    list-style-position: inside;
+    columns: 2;
+   
+}
+ li:hover{
+   color: #000000;
+   background-color: #04ff3a48;
+   border-radius:10px ;
+   text-decoration-color: #5dfd5d57;
+   transition-duration: 0.5s;
+
+}
+aside > p{
+    display: block;
+    margin: 1px 12px 10px;
+    background-color:rgb(235, 248, 237);
+    border-radius: 10px;
+    font-size: 0.9em;
+
+
+   
+}
+ footer{
+    margin: 1px;  
+    text-align: center;
+    background-color: rgba(81, 255, 0, 0.253);
+    color: white;
+
+ }
+.adicional{
+    background-color: rgb(255, 255, 255);
+    border: 10px solid transparent;
+    margin: auto;
+}
+.adicional > article{
+    background-color: rgba(12, 116, 81, 0.425);
+    border-radius: 0%;
+}
+.adicional {
+    background-color: rgb(20, 59, 22);
+    border-radius: 0%;
+    color: white;
+   
+}
+
+
+
+
+
+
+
