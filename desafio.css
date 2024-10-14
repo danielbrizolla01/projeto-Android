@@ -21,21 +21,19 @@ Ao corrigir o exercicio 10, aprendemos uma variante para usar no nosso css, uma 
 }
 body{
     background-color: var(--color4);
-  
-    
-   
-   
+    margin: auto;
 }
 header{
    background-image: linear-gradient(to bottom, #4cb442b0, #0d94239c,#297c29ab);
    height: 220px;
    box-shadow: 7px 6px 5px 6px #00000077;
-   padding:auto;
+   margin: auto;
 }
 header > h1{
    font-family: 'principal', Helvetica, sans-serif;
     color:white;
     padding-top: 1px;
+    margin: auto;
     text-align: center;
     border: 7px solid transparent;  
     
@@ -43,16 +41,16 @@ header > h1{
 header > p {
     color: white;
     font-size: 1.5em;
+
     text-align: center; 
     padding-right: 5px;
     font-style: italic;
 }
-nav{
-margin: auto;
-}
+
 nav > a{
     color: #27421f;
     font-size: 20px;
+    margin: auto;
     padding: 30px;
     text-decoration: none;
     transition-duration: 0.5s;
@@ -70,15 +68,12 @@ nav a:hover{
    
 main{
     background-color: transparent;
-    min-width: 320px;
+    min-width: 300px;
     max-width: 800px;
     margin: auto;
     line-height: 2em;
 }
- .imagem{
- 
 
-}
 article{
     background-image: linear-gradient(to bottom, rgba(65, 129, 65, 0.637), transparent);
     border-bottom-width: 20px;
@@ -163,6 +158,8 @@ aside > ul {
     list-style-type:' \00a0\02714';
     list-style-position: inside;
     columns: 2;
+    margin: auto;
+    font-size: 17px;
    
 }
  li:hover{
